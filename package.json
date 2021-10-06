@@ -1,0 +1,35 @@
+{
+  "name": "android-action-install-sdk",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Android GitHub Action for installing SDK",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:qapital/action-android.git"
+  },
+  "keywords": [
+    "actions",
+    "node",
+    "setup"
+  ],
+  "author": "Malinskiy",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/exec": "^1.0.0",
+    "@vercel/ncc": "^0.31.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.0.4",
+    "jest": "^25.5.4",
+    "jest-circus": "^25.5.4",
+    "ts-jest": "^25.4.0",
+    "typescript": "^3.5.1"
+  }
+}
